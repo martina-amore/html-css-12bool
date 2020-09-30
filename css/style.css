@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #ffc0cb;
+    height: 200px;
+}
+
+[class*="col-"] {
+    text-align: center;
+    line-height: 200px;
+}
+
+.col-1, .col-2, .col-6, .col-8, .col-12 {
+    border: 1px black solid;
+    height: 200px;
+}
+
+.container.last:last-child {
+    background-color: #f07f80;
+    height: 190px;
+    margin: 4px;
+}
+
+.last .col-2, .last .col-6, .last .col-8 {
+    background-color: #f07f80;
+    border: 1px white solid;
+    height: 190px;
+}
