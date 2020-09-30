@@ -12,14 +12,11 @@
 [class*="col-"] {
     text-align: center;
     line-height: 200px;
-}
-
-.col-1, .col-2, .col-6, .col-8, .col-12 {
     border: 1px black solid;
     height: 200px;
 }
 
-.container.last:last-child {
+.container.last {
     background-color: #f07f80;
     height: 190px;
     margin: 4px;
